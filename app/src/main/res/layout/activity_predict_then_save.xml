@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".predict_then_save"
+    android:background="@color/black">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="328dp"
+            android:layout_height="265dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="27dp"
+            android:layout_marginBottom="432dp" />
+
+        <TextView
+            android:id="@+id/classifieds"
+            android:layout_width="231dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="84dp"
+            android:layout_marginBottom="383dp"
+            android:text="CLASSIFIED AS:"
+            android:textAlignment="center"
+            android:textColor="@color/neonGreen"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/prediction"
+            android:layout_width="413dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="-2dp"
+            android:layout_marginBottom="328dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/neonGreen"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="76dp"
+            android:layout_marginBottom="289dp"
+            android:text="CONFIDENCES:"
+            android:textAlignment="center"
+            android:textColor="@color/neonGreen"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/confidences"
+            android:layout_width="416dp"
+            android:layout_height="82dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="-5dp"
+            android:layout_marginBottom="194dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/neonGreen"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/takeapicture"
+            android:layout_width="239dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="57dp"
+            android:layout_marginBottom="140dp"
+            android:text="Take a picture" />
+
+        <Button
+            android:id="@+id/googleMap"
+            android:layout_width="239dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="53dp"
+            android:layout_marginBottom="83dp"
+            android:text="Google Map" />
+
+        <Button
+            android:id="@+id/weather"
+            android:layout_width="239dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="55dp"
+            android:layout_marginBottom="30dp"
+            android:text="Weather" />
+
+
+    </RelativeLayout>
+</LinearLayout>
